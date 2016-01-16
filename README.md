@@ -23,3 +23,5 @@ An example list would be:
 
 Each row that contains multiple names are people of the same family.  The family members can not be assigned to themselves
 
+
+Read the unit tests for examples of how to use it

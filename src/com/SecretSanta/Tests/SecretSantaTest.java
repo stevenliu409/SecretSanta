@@ -22,7 +22,7 @@ public class SecretSantaTest {
         try {
             ArrayList<Participant> secretList =  ss.organizeSecretSanta("/Users/stevenliu/Desktop/Kata Training/Java/SecretSanta/test.txt");
             for (Participant p : secretList) {
-                System.out.println("First name: " + p.getFirstName() + "  Assigned To: " + p.getAssignedPerson().getFirstName() );
+                System.out.println(p.getFirstName() + " -> " + p.getAssignedPerson().getFirstName() );
                 if (p.getAssignedPerson() == null) {
                     tripped = true;
                     break;

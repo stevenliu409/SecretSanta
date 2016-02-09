@@ -24,4 +24,13 @@ An example list would be:
 Each row that contains multiple names are people of the same family.  The family members can not be assigned to themselves
 
 
-Read the unit tests for examples of how to use it
+First initiate a secret santa object then use the organizeSecretSanta method
+```
+SecretSanta ss = new SecretSanta();
+try {
+    ArrayList<Participant> secretList =  ss.organizeSecretSanta("/Users/stevenliu/Desktop/Kata Training/Java/SecretSanta/test.txt"); //specify the path of list of people
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+```
+

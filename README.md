@@ -28,7 +28,7 @@ First initiate a secret santa object then use the organizeSecretSanta method
 ```
 SecretSanta ss = new SecretSanta();
 try {
-    ArrayList<Participant> secretList =  ss.organizeSecretSanta("/Users/stevenliu/Desktop/Kata Training/Java/SecretSanta/test.txt"); //specify the path of list of people
+    ArrayList<Participant> secretList =  ss.organizeSecretSanta("/Path/To/The/List/of/Participants/");
     } catch (IOException e) {
         e.printStackTrace();
     }
